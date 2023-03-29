@@ -6,7 +6,7 @@
         {
             var breakfastMenu = new PancakeHouseMenu();
             var lunchMenu = new DinerMenu();
-            var waitress = new Waitress(breakfastMenu, lunchMenu);
+            var waitress = new Waitress(new List<Menu> { breakfastMenu, lunchMenu });
             waitress.PrintMenu();
         }
     }

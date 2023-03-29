@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{18B3C7E2-098E-4A2B-9A06-B788B6A8DF36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{66C5950B-C704-4980-A38C-9C9C90EC5548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{66C5950B-C704-4980-A38C-9C9C90EC5548}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{CE3DCC68-DBED-40F9-B9B5-DFBA9507C873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{226D38E6-AF47-4140-B70A-71B64AE5F639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{66C5950B-C704-4980-A38C-9C9C90EC5548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66C5950B-C704-4980-A38C-9C9C90EC5548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C5950B-C704-4980-A38C-9C9C90EC5548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3DCC68-DBED-40F9-B9B5-DFBA9507C873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3DCC68-DBED-40F9-B9B5-DFBA9507C873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3DCC68-DBED-40F9-B9B5-DFBA9507C873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3DCC68-DBED-40F9-B9B5-DFBA9507C873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226D38E6-AF47-4140-B70A-71B64AE5F639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226D38E6-AF47-4140-B70A-71B64AE5F639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226D38E6-AF47-4140-B70A-71B64AE5F639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226D38E6-AF47-4140-B70A-71B64AE5F639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
